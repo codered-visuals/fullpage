@@ -1,0 +1,39 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 100px;
+    color: white;
+}
+
+span {
+    background: white !important;
+}
+
+.s1 {
+    background: url("/img/1.jpg");
+}
+
+.s2 {
+    background: url("/img/2.jpg");
+}
+
+.s3 {
+    background: url("/img/3.jpg");
+    background-size: cover;
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        text-align: center;
+        font-size: 40px;
+        color: white;
+    }
+
+    .s1, .s2, .s3 {
+        background-size: cover;
+    }
+}
